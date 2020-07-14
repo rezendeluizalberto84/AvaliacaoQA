@@ -6,10 +6,6 @@ import org.springframework.stereotype.Service;
 
 import br.mg.cadastro.dtos.CadastroDTO;
 import br.mg.cadastro.entities.CadastroInsert;
-import br.mg.cadastro.gerenciador.dtos.CadastroDto;
-import br.mg.cadastro.gerenciador.entities.Cadastro;
-import br.mg.cadastro.gerenciador.repositories.cadastroRepository;
-import br.mg.cadastro.gerenciador.services.exceptions.CadastroServiceException;
 import br.mg.cadastro.repository.CadastroRepository;
 
 @Service
